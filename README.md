@@ -17,6 +17,19 @@ and [PyTorch](http://pytorch.org/).
 pip install -r requirements.txt
 ```
 
+Alternatively, use poetry:
+```
+poetry install
+poetry shell
+```
+
+Add the poetry virtual environment kernel to jupyter:
+```
+poetry shell
+pip install ipykernel
+python -m ipykernel install --user --name=deep-rl-notebooks-poetry
+```
+
 ## Contribute
 
 If you experience any issues running the examples, please file an issue.
