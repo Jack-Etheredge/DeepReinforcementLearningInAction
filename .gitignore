@@ -58,6 +58,7 @@ env.bak/
 venv.bak/
 
 # Scrap notebooks and scripts
+notebooks/MNIST/
 archive/
 Chapter\ 2/Ch2_Bandits_TensorFlow.ipynb
 Chapter\ 2/Ch2_MDPs_old.ipynb
