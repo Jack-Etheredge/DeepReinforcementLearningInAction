@@ -46,6 +46,11 @@ ale-py = "^0.7"
 cmake = "^3.21.3"
 atari-py = "0.2.9"
 magent = "^0.1.14"
+gym-minigrid = "^1.0.2"
+torchvision = "^0.10.1"
+einops = "^0.3.2"
+tqdm = "^4.62.3"
+ipywidgets = "^7.6.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.4"
