@@ -117,11 +117,11 @@ class Gridworld:
 
     def reward(self):
         if (self.board.components['Player'].pos == self.board.components['Pit'].pos):
-            return -10
+            return -10 # -1 in environments dir, -10 in Errata
         elif (self.board.components['Player'].pos == self.board.components['Goal'].pos):
-            return 10
+            return 10 # 1 in environments dir, 10 in Errata
         else:
-            return -1
+            return -1 # 0 in environments dir, -1 in Errata
 
     def display(self):
         return self.board.render()
